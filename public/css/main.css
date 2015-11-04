@@ -1,0 +1,108 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    padding-top:60px;
+}
+.navbar {
+    height:60px;
+    padding-top:5px;
+}
+.nav-sierra {
+    border-bottom:2px groove #ccc;
+    
+background: rgb(169,219,128);
+background: -moz-linear-gradient(top,  rgba(169,219,128,1) 0%, rgba(150,197,111,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,219,128,1)), color-stop(100%,rgba(150,197,111,1)));
+background: -webkit-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+background: -o-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+background: -ms-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+background: linear-gradient(to bottom,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 );
+
+
+}
+
+.navbar-brand {
+    padding:0;
+}
+
+.navbar-brand > img {
+    margin-top:-5px;
+    height:60px;
+}
+.productList {
+    height:400px;
+    margin:0;
+}
+.product-item {
+    background-color: rgb(210,210,210);
+    margin:0 15px;
+    border-radius: 5px;
+    padding: 2px 5;
+    position: relative;
+}
+.product-img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-box {
+    position: relative;
+    background-color:white;
+    padding:0 5px 5px 5px;
+}
+.product-box>h3 {
+    padding:0;
+    margin:0;
+}
+.text-info {
+    min-height: 80px!important;
+}
+
+.showing {
+    margin-left:0;
+}
+.priceLine:nth-child(2n+1) {
+    background-color: #f9f9f9;
+}
+.priceLine {
+    margin:0;
+    font-size:1.6rem;
+    padding:2px 5px;
+}
+.priceTag, .priceValue {
+    display:inline-block;
+    text-align:right;
+    min-width:30%;
+    line-height: 26px;
+}
+.priceTag {
+    font-weight: bold;
+}
+.priceValue {
+    float:right;
+}
+
+.show-details {
+    left:0;
+}
+.animated-product {
+    -webkit-transition: all 500ms ease-in;
+-moz-transition: all 500ms ease-in;
+-ms-transition: all 500ms ease-in;
+-o-transition: all 500ms ease-in;
+transition: all 500ms ease-in;
+}
+
+.noPadding {
+    padding:0 !important;
+}
+
+
+
+
+
+
