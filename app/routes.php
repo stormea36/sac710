@@ -13,10 +13,12 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('landing');
 });
 
 Route::get('users', function()
 {
 	return View::make('users');
 });
+
+Route::get('product/edit', array('as' => 'product.edit', 'uses' => 'ProductController@newForm'));
