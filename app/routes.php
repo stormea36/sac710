@@ -22,3 +22,6 @@ Route::get('users', function()
 });
 
 Route::get('product/edit', array('as' => 'product.edit', 'uses' => 'ProductController@newForm'));
+
+
+Route::post('ajax/save', array('as' => 'ajax.save', 'uses' => 'ProductController@ajaxSave'));

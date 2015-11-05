@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>SAC 710</title>
     <meta name="description" content="">
+    <meta name="_token" content="{{ csrf_token() }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 
@@ -65,8 +66,14 @@
 {{ HTML::script('/js/main.js'); }}
 
 {{ HTML::script('/js/controllers/productController.js'); }}
+
         <!--load scripts-->
 {{ HTML::script('/js/vendor/bootstrap.min.js'); }}
+{{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-animate.min.js') }}
+{{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-sanitize.min.js') }}
+{{ HTML::script('/js/services/refreshData.js') }}
+{{ HTML::script('') }}
+
 
 </body>
 </html>
