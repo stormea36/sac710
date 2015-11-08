@@ -9,6 +9,8 @@ $(document).ready(function() {
 })
 productApp.controller('ProductController',
     function ProductController($scope, $http, RefreshData) {
+        var base_url = "http://sierrapn:8888";
+
         $scope.info = {
             name: 'Sierra Patient Network',
             times: [
@@ -23,12 +25,24 @@ productApp.controller('ProductController',
                 }
             ]
         }
+
+        $scope.qtySort = "gram";
+
+        //
+        //This stuff down here is more for data management
+        //
+
         $http.get( "/inventory.json").success(function(data) {
             $scope.items = data;
         }).error(function () {
             console.log('error loading data');
         })
-        $scope.test = RefreshData.getInventory();
+        $scope.test = [];
+        RefreshData.getInventory()
+            .success(function(arrItems) {
+                $scope.test = arrItems;
+        });
+
         $scope.newProduct = {
             "name" : "",
             "description" : "",
@@ -53,17 +67,9 @@ productApp.controller('ProductController',
                 "oz": ""
             }
         ];
-        var base_url = "http://sierrapn:8888";
+
         $scope.save = function() {
-            if($scope.priceFormat === 1) {
-                $scope.newProduct.price = $scope.priceValue[0].value;
-            }
-            else if ($scope.priceFormat === 2) {
-                $scope.newProduct.price = $scope.priceValue[1];
-            }
-            $http.post(base_url+'/ajax/save', $scope.newProduct).then(function() {
-                console.log('was able to post to jsonReader');
-            })
+            RefreshData.checkInventory($scope.newProduct.name, $scope.newProduct, base_url);
         }
 
     });

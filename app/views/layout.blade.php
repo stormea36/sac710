@@ -40,7 +40,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="/img/sierraPN.png" alt="Sierra Patient Network Logo" /></a>
+            <a class="navbar-brand" href="<? echo public_path(); ?>"><img src="/img/sierraPN.png" alt="Sierra Patient Network Logo" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">

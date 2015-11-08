@@ -23,14 +23,19 @@ class ProductController extends BaseController {
     public function ajaxSave()
     {
         $json = file_get_contents("php://input");
-
         log::debug('showing the json string'.$json);
         $url = public_path()."/test.json";
-        $url = urldecode($url);
+        $fileData = json_decode(file_get_contents($url));
+        $fileData[] = json_decode($json);
 
-        $file = fopen($url,'a');
-//        fputs($file,PHP_EOL.'$inventory[].push('.$json.');');
-        fwrite($file,$json);
-        fclose($file);
+        $dataAsJson = json_encode($fileData);
+        file_put_contents($url,$dataAsJson);
+        echo '{seems to have worked ]';
+//        $url = urldecode($url);
+//
+//        $file = fopen($url,'a');
+////        fputs($file,PHP_EOL.'$inventory[].push('.$json.');');
+//        fwrite($file,$json);
+//        fclose($file);
     }
 }

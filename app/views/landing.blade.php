@@ -99,21 +99,54 @@
         <hr>
 
         <div class="container">
-            <h1>Currently available</h1>
-            <ul class="thumbnails list-unstyled row">
-                <li ng-repeat="item in items.sativa | filter: {active: 'true'}" class="row col-md-4">
-                    <h2><%item.name%></h2>
-                    <div class="col-md-7 noPadding">
-                        <img ng-src="<%item.image%>" class="product-img"/>
-                    </div>
-                    <div class="col-md-5 noPadding">
-                        <ul class="list-unstyled">
-                            <li ng-repeat="(key, price) in item.prices" class="priceLine"><span class="priceTag"><%key%> :</span> <span class="priceValue">$<%price%></span></li>
-                        </ul>
-                    </div>
+            <h1>Currently available - <p ng-model="qtySort"></p></h1>
+            <div class="row">
 
-                </li>
-            </ul>
+                <select ng-model="query.type" class="typeSelect">
+                    <option selected value="">All</option>
+                    <option value="Indica">Indica</option>
+                    <option value="Sativa">Sativa</option>
+                    <option value="Hybrid">Hybrid</option>
+                    <option value="Edible">Edible</option>
+                    <option value="Concentrate">Concentrate</option>
+                    <option value="Equipment">Equipment</option>
+                </select>
+                <select ng-model="qtySort" class="qtySelect">
+                    <option selected value="">All</option>
+                    <option value="gram">gram</option>
+                    <option value="eighth">eighth</option>
+                    <option value="quarter">quarter</option>
+                    <option value="half">half</option>
+                    <option value="ounce">ounce</option>
+                </select>
+
+
+
+            </div>
+
+            <div class="row product-viewer">
+                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style" ng-repeat="tester in test | filter:query">
+                    <div class="item-box">
+                        <img src="/img/product/blueberry-haze.jpg"/>
+                        <div class="item-color-bar"></div>
+
+                        <div class="item-price-box">
+                            <div class="item-price-line" ng-repeat="(key,price) in tester.prices" ng-show="key === qtySort">
+                                <p class="item-price-label"><%key%></p><p class="item-price-val"><%price%></p>
+                            </div>
+                        </div>
+                        <div class="item-info">
+                            <div class="info-left">
+                                <h4><% tester.name | limitTo: 40 %><%tester.name.length > 30 ? '...' : '' %><small> <% tester.type %></small></h4>
+                                <p><%  tester.description | limitTo: 80 %><%tester.description.length > 20 ? '...' : '' %></p>
+                            </div>
+                            <div class="info-right">
+                                <button class="btn btn-primary btn-full">Get It</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer>
@@ -129,8 +162,13 @@
     {{ HTML::script('/js/main.js'); }}
 
     {{ HTML::script('/js/controllers/productController.js'); }}
-    <!--load scripts-->
+
+            <!--load scripts-->
     {{ HTML::script('/js/vendor/bootstrap.min.js'); }}
+    {{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-animate.min.js') }}
+    {{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-sanitize.min.js') }}
+    {{ HTML::script('/js/services/refreshData.js') }}
+    {{ HTML::script('') }}
 
 </body>
 </html>

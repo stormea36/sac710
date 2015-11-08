@@ -1,108 +1,139 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 body {
-    padding-top:60px;
-}
+  padding-top: 60px; }
+
+select {
+  margin: 5px 15px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.typeSelect {
+  background: url("/img/leaf-icon.png") 96%/15% no-repeat #eeeeee; }
+
+.qtySelect {
+  background: url("/img/weed-jar.png") 96%/15% no-repeat #eeeeee; }
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width: 0 \0) {
+  select {
+    background: none;
+    padding: 5px; } }
 .navbar {
-    height:60px;
-    padding-top:5px;
-}
+  height: 60px;
+  padding-top: 5px; }
+
 .nav-sierra {
-    border-bottom:2px groove #ccc;
-    
-background: rgb(169,219,128);
-background: -moz-linear-gradient(top,  rgba(169,219,128,1) 0%, rgba(150,197,111,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,219,128,1)), color-stop(100%,rgba(150,197,111,1)));
-background: -webkit-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-background: -o-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-background: -ms-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-background: linear-gradient(to bottom,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 );
-
-
-}
+  border-bottom: 2px groove #ccc;
+  background: #a9db80;
+  background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a9db80), color-stop(100%, #96c56f));
+  background: -webkit-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+  background: -o-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+  background: -ms-linear-gradient(top, #a9db80 0%, #96c56f 100%);
+  background: linear-gradient(to bottom, #a9db80 0%, #96c56f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); }
 
 .navbar-brand {
-    padding:0;
-}
+  padding: 0; }
 
 .navbar-brand > img {
-    margin-top:-5px;
-    height:60px;
-}
-.productList {
-    height:400px;
-    margin:0;
-}
-.product-item {
-    background-color: rgb(210,210,210);
-    margin:0 15px;
-    border-radius: 5px;
-    padding: 2px 5;
-    position: relative;
-}
-.product-img {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.product-box {
-    position: relative;
-    background-color:white;
-    padding:0 5px 5px 5px;
-}
-.product-box>h3 {
-    padding:0;
-    margin:0;
-}
-.text-info {
-    min-height: 80px!important;
-}
+  margin-top: -5px;
+  height: 60px; }
 
-.showing {
-    margin-left:0;
-}
-.priceLine:nth-child(2n+1) {
-    background-color: #f9f9f9;
-}
-.priceLine {
-    margin:0;
-    font-size:1.6rem;
-    padding:2px 5px;
-}
-.priceTag, .priceValue {
-    display:inline-block;
-    text-align:right;
-    min-width:30%;
-    line-height: 26px;
-}
-.priceTag {
+.product-viewer {
+  height: 500px;
+  overflow-y: scroll;
+  padding: 15px 5px;
+  border-left: 2px solid #444; }
+
+.item-style {
+  margin-bottom: 20px; }
+
+.item-box {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  height: 360px;
+  -webkit-box-shadow: 2px 3px 4px #6e6e6e;
+  -moz-box-shadow: 2px 7px 10px #6e6e6e;
+  box-shadow: 2px 7px 10px #6e6e6e; }
+  .item-box:hover {
+    -webkit-box-shadow: 1px 2px 2px #6e6e6e;
+    -moz-box-shadow: 1px 3px 5px #6e6e6e;
+    box-shadow: 1px 3px 5px #6e6e6e; }
+  .item-box img {
+    height: 85%;
+    position: absolute;
+    left: 0;
+    z-index: -10; }
+
+.item-color-bar {
+  height: 360px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  width: 15px;
+  z-index: 10;
+  background-color: #3e8f3e;
+  padding: 0;
+  margin: 0; }
+
+.item-price-box {
+  z-index: 5;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0; }
+
+.item-info {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 20px;
+  background-color: rgba(250, 250, 250, 0.75); }
+  .item-info .info-left {
+    width: 75%;
+    height: 90px;
+    display: inline-block;
+    float: left; }
+  .item-info .info-right {
+    width: 25%;
+    float: left;
+    height: 90px;
+    display: inline-block; }
+  .item-info p {
+    font-size: 1.1rem; }
+
+.item-price-line {
+  background-color: rgba(250, 250, 250, 0.75);
+  width: 80px;
+  font-size: 2rem; }
+  .item-price-line .item-price-label {
+    display: block;
     font-weight: bold;
-}
-.priceValue {
-    float:right;
-}
+    text-align: left;
+    width: 100%;
+    padding-right: 20px; }
+  .item-price-line .item-price-val {
+    display: block;
+    width: 100%;
+    text-align: left; }
+    .item-price-line .item-price-val:before {
+      content: "$"; }
 
-.show-details {
-    left:0;
-}
-.animated-product {
-    -webkit-transition: all 500ms ease-in;
--moz-transition: all 500ms ease-in;
--ms-transition: all 500ms ease-in;
--o-transition: all 500ms ease-in;
-transition: all 500ms ease-in;
-}
-
-.noPadding {
-    padding:0 !important;
-}
-
-
-
-
-
-
+.btn-full {
+  padding: 0 !important;
+  height: 100%;
+  width: 100%;
+  border-radius: 0; }
