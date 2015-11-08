@@ -86,7 +86,7 @@
     <div class="row">
         <div class="col-xs-offset-2 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style" ng-repeat="tester in test">
             <div class="item-box">
-                <img src="/img/product/blueberry-haze.jpg"/>
+                <img src="/img/product/blueberry-haze.JPG"/>
                 <div class="item-color-bar"></div>
                 <ul class="item-price-box list-unstyled">
                    <li ng-repeat="(key, price) in tester.prices" class="item-price-line"><p class="item-price-label"><%key%></p><p class="item-price-val"><%price%></p></li>
