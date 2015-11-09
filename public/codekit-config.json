@@ -22,17 +22,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/jack-flash.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/jack-flash.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/jack-flash.JPG",
-      "initialSize" : 69575,
-      "fileType" : 4096
-    },
     "\/img\/blueberry-haze.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -42,17 +31,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/blueberry-haze.JPG",
       "initialSize" : 76663,
-      "fileType" : 4096
-    },
-    "\/img\/cannabis-salve.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/cannabis-salve.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/cannabis-salve.JPG",
-      "initialSize" : 89126,
       "fileType" : 4096
     },
     "\/js\/vendor\/bootstrap.js" : {
@@ -99,16 +77,16 @@
       "initialSize" : 82975,
       "fileType" : 4096
     },
-    "\/js\/controllers\/productController.js" : {
+    "\/img\/Blackberry-Kush-Errluminati.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/controllers\/productController.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
+      "initialSize" : 92961,
+      "fileType" : 4096
     },
     "\/js\/services\/refreshData.js" : {
       "ignoreWasSetByUser" : 0,
@@ -161,26 +139,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/cannabis_salve.JPG" : {
+    "\/js\/controllers\/productController.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/cannabis_salve.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/cannabis_salve.JPG",
-      "initialSize" : 89126,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/controllers\/productController.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck.js",
+      "fileType" : 64
     },
-    "\/img\/Blackberry-Kush-Errluminati.JPG" : {
+    "\/img\/cannabissalve.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
+      "inputAbbreviatedPath" : "\/img\/cannabissalve.JPG",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
-      "initialSize" : 92961,
+      "outputAbbreviatedPath" : "\/img\/cannabissalve.JPG",
+      "initialSize" : 89126,
       "fileType" : 4096
     },
     "\/img\/mango-shatter.JPG" : {
@@ -216,16 +194,16 @@
       "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
       "fileType" : 64
     },
-    "\/img\/grape-ape.JPG" : {
+    "\/img\/horizontalnug1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/grape-ape.JPG",
+      "inputAbbreviatedPath" : "\/img\/horizontalnug1.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/grape-ape.JPG",
-      "initialSize" : 80448,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/img\/horizontalnug1.png",
+      "initialSize" : 322720,
+      "fileType" : 8192
     },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
@@ -282,17 +260,6 @@
       "initialSize" : 88193,
       "fileType" : 8192
     },
-    "\/img\/extreme-og.PNG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/extreme-og.PNG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/extreme-og.PNG",
-      "initialSize" : 501710,
-      "fileType" : 8192
-    },
     "\/js\/controllers\/productController-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -324,15 +291,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/css\/bootstrap.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/vendor\/modernizr-2.8.3-respond-1.4.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -343,6 +301,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.8.3-respond-1.4.2.min-ck.js",
       "fileType" : 64
+    },
+    "\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -367,17 +334,6 @@
       "initialSize" : 41732,
       "fileType" : 8192
     },
-    "\/img\/horizontal_nug1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/horizontal_nug1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/horizontal_nug1.png",
-      "initialSize" : 322720,
-      "fileType" : 8192
-    },
     "\/js\/vendor\/npm.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -400,6 +356,28 @@
       "initialSize" : 8535,
       "fileType" : 8192
     },
+    "\/img\/grapeape.JPG" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/grapeape.JPG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/grapeape.JPG",
+      "initialSize" : 80448,
+      "fileType" : 4096
+    },
+    "\/img\/jack flash.JPG" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/jack flash.JPG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/jack flash.JPG",
+      "initialSize" : 69575,
+      "fileType" : 4096
+    },
     "\/img\/mango_shatter.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -420,6 +398,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/leaf-icon-large.png",
       "initialSize" : 88193,
+      "fileType" : 8192
+    },
+    "\/img\/extremeog.PNG" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/extremeog.PNG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/extremeog.PNG",
+      "initialSize" : 501710,
       "fileType" : 8192
     },
     "\/css\/bootstrap-theme.css" : {
