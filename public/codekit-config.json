@@ -2,26 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/js\/vendor\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap.min-ck.js",
-      "fileType" : 64
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/blueberry-haze.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -31,6 +11,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/blueberry-haze.JPG",
       "initialSize" : 76663,
+      "fileType" : 4096
+    },
+    "\/img\/purple-girl-scout.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/purple-girl-scout.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/purple-girl-scout.jpg",
+      "initialSize" : 82975,
       "fileType" : 4096
     },
     "\/js\/vendor\/bootstrap.js" : {
@@ -44,17 +35,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap-ck.js",
       "fileType" : 64
     },
-    "\/img\/solvent-free-capsules.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/solvent-free-capsules.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/solvent-free-capsules.JPG",
-      "initialSize" : 88717,
-      "fileType" : 4096
-    },
     "\/img\/sour-tangie.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -66,15 +46,15 @@
       "initialSize" : 52082,
       "fileType" : 4096
     },
-    "\/img\/purple-girl-scout.JPG" : {
+    "\/img\/jack-flash.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/purple-girl-scout.JPG",
+      "inputAbbreviatedPath" : "\/img\/jack-flash.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/purple-girl-scout.JPG",
-      "initialSize" : 82975,
+      "outputAbbreviatedPath" : "\/img\/jack-flash.jpg",
+      "initialSize" : 69575,
       "fileType" : 4096
     },
     "\/js\/controllers\/productController.js" : {
@@ -88,28 +68,6 @@
       "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck.js",
       "fileType" : 64
     },
-    "\/img\/Blackberry-Kush-Errluminati.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
-      "initialSize" : 92961,
-      "fileType" : 4096
-    },
-    "\/img\/theclear-strawberry-banana.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/theclear-strawberry-banana.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/theclear-strawberry-banana.JPG",
-      "initialSize" : 112151,
-      "fileType" : 4096
-    },
     "\/js\/services\/refreshData.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -121,25 +79,27 @@
       "outputAbbreviatedPath" : "\/js\/services\/refreshData-ck.js",
       "fileType" : 64
     },
-    "\/img\/sloth-bar.JPG" : {
+    "\/img\/sloth-bar.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/sloth-bar.JPG",
+      "inputAbbreviatedPath" : "\/img\/sloth-bar.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/sloth-bar.JPG",
+      "outputAbbreviatedPath" : "\/img\/sloth-bar.jpg",
       "initialSize" : 97563,
       "fileType" : 4096
     },
-    "\/css\/main.css" : {
+    "\/img\/Blackberry-Kush-Errluminati.JPG" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/Blackberry-Kush-Errluminati.JPG",
+      "initialSize" : 92961,
+      "fileType" : 4096
     },
     "\/css\/bootstrap-theme.min.css" : {
       "ignoreWasSetByUser" : 0,
@@ -150,16 +110,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/mango-shatter.JPG" : {
+    "\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mango-shatter.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mango-shatter.JPG",
-      "initialSize" : 214013,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/vendor\/jquery-1.11.2.js" : {
       "ignoreWasSetByUser" : 0,
@@ -194,6 +152,17 @@
       "initialSize" : 80448,
       "fileType" : 4096
     },
+    "\/img\/plant-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/plant-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/plant-bg.jpg",
+      "initialSize" : 225397,
+      "fileType" : 4096
+    },
     "\/img\/horizontalnug1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -216,16 +185,16 @@
       "initialSize" : 89126,
       "fileType" : 4096
     },
-    "\/img\/plant-bg.JPG" : {
+    "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/plant-bg.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/plant-bg.JPG",
-      "initialSize" : 225397,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/main-ck.js",
+      "fileType" : 64
     },
     "\/weed-jar.png" : {
       "ignoreWasSetByUser" : 0,
@@ -237,28 +206,6 @@
       "outputAbbreviatedPath" : "\/weed-jar.png",
       "initialSize" : 41732,
       "fileType" : 8192
-    },
-    "\/img\/master_kush.JPG" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/master_kush.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/master_kush.JPG",
-      "initialSize" : 144294,
-      "fileType" : 4096
-    },
-    "\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/main-ck.js",
-      "fileType" : 64
     },
     "\/img\/leaf-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -282,6 +229,24 @@
       "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck-ck.js",
       "fileType" : 64
     },
+    "\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/img\/tangie.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -293,15 +258,6 @@
       "initialSize" : 62258,
       "fileType" : 4096
     },
-    "\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/vendor\/modernizr-2.8.3-respond-1.4.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -312,15 +268,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.8.3-respond-1.4.2.min-ck.js",
       "fileType" : 64
-    },
-    "\/css\/bootstrap.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -378,26 +325,37 @@
       "initialSize" : 8535,
       "fileType" : 8192
     },
-    "\/img\/jack flash.JPG" : {
+    "\/img\/theclear-strawberry-banana.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/jack flash.JPG",
+      "inputAbbreviatedPath" : "\/img\/theclear-strawberry-banana.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/jack flash.JPG",
-      "initialSize" : 69575,
+      "outputAbbreviatedPath" : "\/img\/theclear-strawberry-banana.jpg",
+      "initialSize" : 112151,
       "fileType" : 4096
     },
-    "\/img\/mango_shatter.JPG" : {
+    "\/img\/solvent-free-capsules.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mango_shatter.JPG",
+      "inputAbbreviatedPath" : "\/img\/solvent-free-capsules.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mango_shatter.JPG",
-      "initialSize" : 214013,
+      "outputAbbreviatedPath" : "\/img\/solvent-free-capsules.jpg",
+      "initialSize" : 88717,
+      "fileType" : 4096
+    },
+    "\/img\/master_kush.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/master_kush.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/master_kush.jpg",
+      "initialSize" : 144294,
       "fileType" : 4096
     },
     "\/img\/leaf-icon-large.png" : {
@@ -411,6 +369,17 @@
       "initialSize" : 88193,
       "fileType" : 8192
     },
+    "\/img\/theclear-red-apple.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/theclear-red-apple.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/theclear-red-apple.jpg",
+      "initialSize" : 103222,
+      "fileType" : 4096
+    },
     "\/css\/bootstrap-theme.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -419,6 +388,17 @@
       "inputAbbreviatedPath" : "\/css\/bootstrap-theme.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/img\/mango_shatter.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/mango_shatter.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mango_shatter.jpg",
+      "initialSize" : 214013,
+      "fileType" : 4096
     },
     "\/img\/Hawgsbreath.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -431,27 +411,25 @@
       "initialSize" : 32647,
       "fileType" : 4096
     },
-    "\/img\/theclear-red-apple.JPG" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/theclear-red-apple.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/theclear-red-apple.JPG",
-      "initialSize" : 103222,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/img\/master-kush.JPG" : {
+    "\/js\/vendor\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/master-kush.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/master-kush.JPG",
-      "initialSize" : 144294,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap.min-ck.js",
+      "fileType" : 64
     }
   },
   "manualImportLinks" : [
