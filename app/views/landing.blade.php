@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     {{ HTML::script('/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'); }}
 
             <!--load stylesheets-->
@@ -62,103 +62,158 @@
             <div class="row">
                 <div class="col-md-7">
                     <h1><% info.name %></h1>
-                    <p class="lead">This is a testament to my personal efforts to build a great site for these guys. Let's get it on it.</p>
-                    <p class="col-md-offset-1">Top of the line quality medication</p>
-                    <p class="col-md-offset-2">Delivered right to your door</p>
-                    <p class="col-md-offset-3">See why we are the best in the area</p>
+                    <p class="lead">
+                        We are a delivery service able to offer high quality cannabis medication and products right to your door.
+                        We serve the Sacramento area offering everything you need from a diverse Flower selection and
+                        high quality extracts to topicals. Come see for yourself why we are one of the top services in the area.</p>
+
+                        <button id="cartBtn" type="button" class="button btn-primary">See our Menu</button>
+                        <button type="button" class="button btn-default">Join our Community</button>
+
 
                 </div>
-                <div class="col-md-5">
-                    <img src="img/horizontal_nug1.png" alt="nug of green" />
-                </div>
+                {{--<div class="col-md-5">--}}
+                    {{--<img src="img/horizontal_nug1.png" alt="nug of green" />--}}
+                {{--</div>--}}
             </div>
 
+        </div>
+    </div>
+    <div class="container-fluid quote-holder">
+        <div class="quote-box">
+            <p class="quote-text">
+                Tried a couple different delivery services but these guys are who you want to use. Local organically grown product to your door step. What else can you ask for. Don't waste your time with sketchy people. These guys are clean cut and not someone who you would be ashamed of to come in your house or apt building.
+                Check out their refer a patient program.
+            </p>
+            <p class="quote-author">
+                AllinALLday23 <small>on</small> <a href="https://weedmaps.com/deliveries/sierra-patient-network#/reviews" class="weedmaps-icon quote-source">Weedmaps</a>
+            </p>
         </div>
     </div>
 
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
+                <div class="col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 info-holder">
+
+                    <div class="points-info">
+                        <h3>Quality Plants</h3>
+                        <div class="points-img">
+                            <img src="/img/master_kush.jpg" alt="master kush" />
+                        </div>
+                        <p>With over 25 years experience cultivating cannabis,
+                            our master grower and his cultivation team have dialed in their techniques
+                            to achieve a high-quality, 100% organically grown plant.
+                            {{--for every stage of the plant’s life cycle. --}}
+                            {{--By using a feeding regimen consisting of 100% organic actively-aerated compost tea with EM-1, --}}
+                            {{--along with 100% organic soil amendments, we are able to ensure that our patients have access to the safest, --}}
+                            {{--highest quality medicine available. --}}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 info-holder">
+
+                    <div class="points-info">
+                        <h3>Diverse Products</h3>
+                        <div class="points-img">
+                            <img src="/img/mango_shatter.jpg" alt="master kush" />
+                        </div>
+                        <p>
+                            {{--In the constantly evolving cannabis industry, i--}}
+                            {{--t is essential to be ‘in the know’ regarding new innovative technologies and new forms of --}}
+                            {{--medicine being made available to our patients. --}}
+                            {{--Keeping that in mind, --}}
+                            We are always expanding our new product selection and source top industry professionals to process our organic
+                            flower using state-of-the-art equipment and extracting methods.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 info-holder">
+
+                    <div class="points-info">
+                        <h3>Deep Involvement</h3>
+                        <div class="points-img">
+                            <img src="/img/cannabis_salve.jpg" alt="master kush" />
+                        </div>
+                        <p>
+                            From basic product education to workshops like 'cannabis history 101' and 'DIY growing techniques',
+                            we offer a wide variety of service to help raise awareness about cannabis.
+                            </p>
+                        {{----}}
+                            {{--We at the Sierra Patient Network strive to educate our clients on all dynamics from the cannabis plant; --}}
+                            {{--From basic product education all of the way to workshops like ‘cannabis history 101’ and ‘DIY Growing--}}
+                            {{--techniques’, we offer a wide variety of service to help raise awareness within the ever-changing cannabis industry</p>--}}
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <h3 class="text-right">Learn more about <a href="#">Our Story</a></h3>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <h1 id="cartSection">Currently available - <p ng-model="qtySort"></p></h1>
+        <div class="row">
+
+            <select ng-model="query.type" class="typeSelect">
+                <option selected value="">All</option>
+                <option value="Indica">Indica</option>
+                <option value="Sativa">Sativa</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Edible">Edible</option>
+                <option value="Concentrate">Concentrate</option>
+                <option value="Equipment">Equipment</option>
+            </select>
+            <select ng-model="qtySort" class="qtySelect">
+                <option selected value="">All</option>
+                <option value="gram">gram</option>
+                <option value="eighth">eighth</option>
+                <option value="quarter">quarter</option>
+                <option value="half">half</option>
+                <option value="ounce">ounce</option>
+            </select>
+
+
+
         </div>
 
-        <hr>
+        <div class="row product-viewer">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style item-animation" ng-repeat="tester in test | filter:query">
+                <div class="item-box">
+                    <img src="/img/blueberry-haze.jpg"/>
+                    <div class="item-color-bar"></div>
 
-        <div class="container">
-            <h1>Currently available - <p ng-model="qtySort"></p></h1>
-            <div class="row">
-
-                <select ng-model="query.type" class="typeSelect">
-                    <option selected value="">All</option>
-                    <option value="Indica">Indica</option>
-                    <option value="Sativa">Sativa</option>
-                    <option value="Hybrid">Hybrid</option>
-                    <option value="Edible">Edible</option>
-                    <option value="Concentrate">Concentrate</option>
-                    <option value="Equipment">Equipment</option>
-                </select>
-                <select ng-model="qtySort" class="qtySelect">
-                    <option selected value="">All</option>
-                    <option value="gram">gram</option>
-                    <option value="eighth">eighth</option>
-                    <option value="quarter">quarter</option>
-                    <option value="half">half</option>
-                    <option value="ounce">ounce</option>
-                </select>
-
-
-
-            </div>
-
-            <div class="row product-viewer">
-                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style" ng-repeat="tester in test | filter:query">
-                    <div class="item-box">
-                        <img src="/img/product/blueberry-haze.jpg"/>
-                        <div class="item-color-bar"></div>
-
-                        <div class="item-price-box">
-                            <div class="item-price-line" ng-repeat="(key,price) in tester.prices" ng-show="key === qtySort">
-                                <p class="item-price-label"><%key%></p><p class="item-price-val"><%price%></p>
-                            </div>
+                    <div class="item-price-box">
+                        <div class="item-price-line" ng-repeat="(key,price) in tester.prices" ng-show="key === qtySort">
+                            <p class="item-price-label"><%key%></p><p class="item-price-val"><%price%></p>
                         </div>
-                        <div class="item-info">
-                            <div class="info-left">
-                                <h4><% tester.name | limitTo: 40 %><%tester.name.length > 30 ? '...' : '' %><small> <% tester.type %></small></h4>
-                                <p><%  tester.description | limitTo: 80 %><%tester.description.length > 20 ? '...' : '' %></p>
-                            </div>
-                            <div class="info-right">
-                                <button class="btn btn-primary btn-full">Get It</button>
-                            </div>
+                    </div>
+                    <div class="item-info">
+                        <div class="info-left">
+                            <h4><% tester.name | limitTo: 40 %><%tester.name.length > 30 ? '...' : '' %><small> <% tester.type %></small></h4>
+                            <a data-toggle="tooltip" data-placement="bottom" title="<% tester.description | limitTo:200 %>" tooltip><%  tester.description | limitTo:50 %><%tester.description.length > 50 ? '...' : '' %></a>
+                        </div>
+                        <div class="info-right">
+                            <button class="btn btn-primary btn-full">Get It</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="container">
         <footer>
             <p>&copy; Company 2015</p>
         </footer>
-    </div> <!-- /container -->
-
+    </div>
     {{ HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js'); }}
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.js"><\/script>')</script>
 
     {{ HTML::script('//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js'); }}
-
+    {{ HTML::script('/js/vendor/bootstrap.min.js'); }}
     {{ HTML::script('/js/main.js'); }}
 
     {{ HTML::script('/js/controllers/productController.js'); }}

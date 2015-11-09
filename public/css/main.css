@@ -2,23 +2,51 @@
    Author's custom styles
    ========================================================================== */
 body {
-  padding-top: 60px; }
+  padding-top: 60px;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  color: #53b053; }
+  a:hover {
+    color: #337ab7;
+    text-decoration: none; }
 
 select {
   margin: 5px 15px;
   border: 1px solid #111;
   background: transparent;
-  width: 150px;
-  padding: 5px 35px 5px 5px;
-  font-size: 16px;
+  width: 180px;
+  padding: 5px 35px 5px 10px;
+  font-size: 18px;
   border: 1px solid #ccc;
-  height: 34px;
+  height: 40px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
 
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 64px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: normal;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  -moz-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  box-shadow: 0 3px 0 rgba(178, 76, 69, 0.9);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 18px 25px 18px 25px; }
+
 .typeSelect {
-  background: url("/img/leaf-icon.png") 96%/15% no-repeat #eeeeee; }
+  background: url("/img/leaf-icon-large.png") 96%/15% no-repeat #eeeeee; }
 
 .qtySelect {
   background: url("/img/weed-jar.png") 96%/15% no-repeat #eeeeee; }
@@ -50,17 +78,108 @@ select {
   margin-top: -5px;
   height: 60px; }
 
+.jumbotron {
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  background-image: linear-gradient(141deg, rgba(0, 0, 0, 0.6) 17%, rgba(0, 0, 0, 0)), url("/img/plant-bg.jpg");
+  background-size: cover;
+  min-height: 480px; }
+
+.quote-holder {
+  background: #e2e2e2;
+  background: -moz-linear-gradient(-45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #e2e2e2), color-stop(50%, #dbdbdb), color-stop(51%, #d1d1d1), color-stop(100%, #fefefe));
+  background: -webkit-linear-gradient(-45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  background: -o-linear-gradient(-45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  background: -ms-linear-gradient(-45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  background: linear-gradient(135deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 );
+  padding: 15px 5px; }
+
+.quote-box {
+  width: 80%;
+  margin: 10px auto 5px;
+  position: relative; }
+
+.quote-text {
+  margin: 20px 5px;
+  font-size: 1.7rem;
+  font-style: italic; }
+  .quote-text:before {
+    content: url("/img/leaf-icon.png");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -40px;
+    top: -10px; }
+  .quote-text:after {
+    content: url("/img/leaf-icon.png");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -40px; }
+
+.quote-author {
+  padding-top: 10px;
+  text-align: right;
+  font-size: 1.4rem; }
+
+.quote-source {
+  font-weight: bold;
+  color: #326432;
+  text-decoration: none; }
+  .quote-source:hover {
+    color: #660066; }
+
+.info-holder {
+  padding: 25px;
+  position: relative; }
+
+.points-img img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 180px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #2b669a;
+  border: 6px inset white; }
+
+.points-info {
+  padding: 0;
+  margin-top: -10px;
+  z-index: 5; }
+  .points-info h3 {
+    color: white;
+    background-color: #3c763d;
+    text-align: center;
+    margin: 0;
+    padding: 15px 5px 8px 5px;
+    text-shadow: 2px 2px 2px #444; }
+  .points-info p {
+    border-bottom: 3px solid #A5A5A5;
+    padding: 10px;
+    font-size: 1.7rem;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    height: 190px; }
+
 .product-viewer {
-  height: 500px;
+  height: 620px;
   overflow-y: scroll;
   padding: 15px 5px;
-  border-left: 2px solid #444; }
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px; }
 
 .item-style {
   margin-bottom: 20px; }
 
 .item-box {
   position: relative;
+  background-color: #fff;
   width: 100%;
   min-height: 100%;
   min-width: 100%;
@@ -74,9 +193,9 @@ select {
     box-shadow: 1px 3px 5px #6e6e6e; }
   .item-box img {
     height: 85%;
+    max-width: 90%;
     position: absolute;
-    left: 0;
-    z-index: -10; }
+    left: 0; }
 
 .item-color-bar {
   height: 360px;
@@ -100,20 +219,26 @@ select {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-left: 20px;
+  padding-left: 15px;
   background-color: rgba(250, 250, 250, 0.75); }
   .item-info .info-left {
     width: 75%;
+    padding: 0 2px;
     height: 90px;
     display: inline-block;
     float: left; }
+    .item-info .info-left h4 {
+      margin: 5px 0; }
+    .item-info .info-left a {
+      font-size: 1.2rem;
+      color: #2b669a; }
+      .item-info .info-left a:hover {
+        color: #660066; }
   .item-info .info-right {
     width: 25%;
     float: left;
     height: 90px;
     display: inline-block; }
-  .item-info p {
-    font-size: 1.1rem; }
 
 .item-price-line {
   background-color: rgba(250, 250, 250, 0.75);
