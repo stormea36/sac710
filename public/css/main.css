@@ -1,83 +1,6 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-  padding-top: 60px;
-  font-family: 'Roboto', sans-serif; }
-
-a {
-  color: #53b053; }
-  a:hover {
-    color: #337ab7;
-    text-decoration: none; }
-
-select {
-  margin: 5px 15px;
-  border: 1px solid #111;
-  background: transparent;
-  width: 180px;
-  padding: 5px 35px 5px 10px;
-  font-size: 18px;
-  border: 1px solid #ccc;
-  height: 40px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; }
-
-.button {
-  cursor: pointer;
-  display: inline-block;
-  padding: 20px 64px;
-  margin: 0px;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: normal;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
-  -moz-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
-  box-shadow: 0 3px 0 rgba(178, 76, 69, 0.9);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-  padding: 18px 25px 18px 25px; }
-
-.typeSelect {
-  background: url("/img/leaf-icon-large.png") 96%/15% no-repeat #eeeeee; }
-
-.qtySelect {
-  background: url("/img/weed-jar.png") 96%/15% no-repeat #eeeeee; }
-
-/*target Internet Explorer 9 and Internet Explorer 10:*/
-@media screen and (min-width: 0 \0) {
-  select {
-    background: none;
-    padding: 5px; } }
-.navbar {
-  height: 60px;
-  padding-top: 5px; }
-
-.nav-sierra {
-  border-bottom: 2px groove #ccc;
-  background: #a9db80;
-  background: -moz-linear-gradient(top, #a9db80 0%, #96c56f 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a9db80), color-stop(100%, #96c56f));
-  background: -webkit-linear-gradient(top, #a9db80 0%, #96c56f 100%);
-  background: -o-linear-gradient(top, #a9db80 0%, #96c56f 100%);
-  background: -ms-linear-gradient(top, #a9db80 0%, #96c56f 100%);
-  background: linear-gradient(to bottom, #a9db80 0%, #96c56f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); }
-
-.navbar-brand {
-  padding: 0; }
-
-.navbar-brand > img {
-  margin-top: -5px;
-  height: 60px; }
-
 .jumbotron {
   color: white;
   margin-bottom: 0;
@@ -103,27 +26,29 @@ select {
   position: relative; }
 
 .quote-text {
-  margin: 20px 5px;
+  margin: 5px;
   font-size: 1.7rem;
-  font-style: italic; }
-  .quote-text:before {
-    content: url("/img/leaf-icon.png");
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: -40px;
-    top: -10px; }
-  .quote-text:after {
-    content: url("/img/leaf-icon.png");
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: -40px; }
+  font-style: italic;
+  color: white;
+  background-image: url("/img/speech-box.png");
+  background-size: 100% 100%; }
+  @media screen and (max-width: 758px) {
+    .quote-text {
+      padding: 25px 70px 80px 25px; } }
+  @media screen and (max-width: 1120px) {
+    .quote-text {
+      padding: 25px 90px 80px 30px; } }
 
 .quote-author {
-  padding-top: 10px;
-  text-align: right;
-  font-size: 1.4rem; }
+  padding-left: 40px;
+  font-size: 1.4em;
+  line-height: 40px; }
+  .quote-author:before {
+    content: url("/img/leaf-icon.png");
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0px; }
 
 .quote-source {
   font-weight: bold;
@@ -153,7 +78,7 @@ select {
   z-index: 5; }
   .points-info h3 {
     color: white;
-    background-color: #3c763d;
+    background-color: #067628;
     text-align: center;
     margin: 0;
     padding: 15px 5px 8px 5px;
@@ -165,14 +90,6 @@ select {
     text-align: center;
     border-radius: 0 0 10px 10px;
     height: 190px; }
-
-.product-viewer {
-  height: 620px;
-  overflow-y: scroll;
-  padding: 15px 5px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px; }
 
 .item-style {
   margin-bottom: 20px; }
@@ -262,3 +179,122 @@ select {
   height: 100%;
   width: 100%;
   border-radius: 0; }
+
+.call-us span {
+  font-size: 140%;
+  color: #444;
+  font-weight: bold; }
+
+.greenHRow {
+  height: 5px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #b4ddb4;
+  background: -moz-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #b4ddb4), color-stop(0%, #83c783), color-stop(33%, #52b152), color-stop(67%, #008a00), color-stop(83%, #005700), color-stop(100%, #002400));
+  background: -webkit-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  background: -o-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  background: -ms-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  background: linear-gradient(to right, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); }
+
+body {
+  padding-top: 60px;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  color: #53b053; }
+  a:hover {
+    color: #337ab7;
+    text-decoration: none; }
+
+select {
+  margin: 5px 15px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 180px;
+  padding: 5px 35px 5px 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 64px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: normal;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  -moz-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  box-shadow: 0 3px 0 rgba(178, 76, 69, 0.9);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 18px 25px 18px 25px; }
+
+.typeSelect {
+  background: url("/img/leaf-icon-large.png") 96%/15% no-repeat #eeeeee; }
+
+.qtySelect {
+  background: url("/img/weed-jar.png") 96%/15% no-repeat #eeeeee; }
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width: 0 \0) {
+  select {
+    background: none;
+    padding: 5px; } }
+.navbar {
+  height: 60px;
+  padding-top: 5px;
+  background-color: white; }
+
+.navbar-nav > li > a {
+  font-size: 110%;
+  color: #2b542c; }
+
+.navbar-form, #navbar {
+  max-height: 540px;
+  background-color: transparent; }
+  @media screen and (max-width: 758px) {
+    .navbar-form, #navbar {
+      background-color: white; } }
+
+.nav-sierra {
+  border-bottom: 2px groove #ccc;
+  background: #eeeeee;
+  background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -o-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: -ms-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); }
+
+.icon-bar {
+  background-color: #241104; }
+
+.navbar-brand {
+  padding: 0; }
+
+.navbar-brand > img {
+  margin-top: -5px;
+  height: 60px; }
+
+.product-viewer {
+  height: 620px;
+  overflow-y: scroll;
+  padding: 15px 5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px; }

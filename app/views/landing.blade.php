@@ -30,8 +30,9 @@
 
 </head>
 <body ng-controller="ProductController">
+
     <nav class="navbar nav-sierra navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -41,18 +42,41 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="/img/sierraPN.png" alt="Sierra Patient Network Logo" /></a>
             </div>
+
             <div id="navbar" class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right" role="form">
+                <div class="navbar-left navbar-form">
                     <div class="form-group">
-                        <input type="text" placeholder="Email" class="form-control">
+                        <h4><span class="hidden-md">First Timer? Get a FREE G</span> <SMALL class="call-us">Call Us: <span>(219) 867-5309</span></SMALL></h4>
                     </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Password" class="form-control">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                </form>
+                </div>
+                <ul class="navbar-right navbar-nav nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Admin <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Add Product</a></li>
+                            <li><a href="#">Membership</a></li>
+                            <li><a href="#">Edit Information</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                {{--<form class="navbar-form navbar-right" role="form">--}}
+                    {{--<div class="form-group">--}}
+                        {{--<h4>Get deals delivered: </h4>--}}
+                    {{--</div>--}}
+                    {{--<div class="form-group">--}}
+                        {{--<input type="text" placeholder="Email" class="form-control">--}}
+                    {{--</div>--}}
+                    {{--<button type="submit" class="btn btn-primary">Join</button>--}}
+                {{--</form>--}}
             </div><!--/.navbar-collapse -->
         </div>
+        <div class="greenHRow"></div>
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -80,15 +104,26 @@
         </div>
     </div>
     <div class="container-fluid quote-holder">
-        <div class="quote-box">
-            <p class="quote-text">
-                Tried a couple different delivery services but these guys are who you want to use. Local organically grown product to your door step. What else can you ask for. Don't waste your time with sketchy people. These guys are clean cut and not someone who you would be ashamed of to come in your house or apt building.
-                Check out their refer a patient program.
-            </p>
-            <p class="quote-author">
-                AllinALLday23 <small>on</small> <a href="https://weedmaps.com/deliveries/sierra-patient-network#/reviews" class="weedmaps-icon quote-source">Weedmaps</a>
-            </p>
+        <div class="row">
+            <div class="col-md-7 col-xs-7">
+                <div class="quote-box">
+                    <p class="quote-text visible-md visible-lg hidden-xs hidden-sm">
+                        Tried a couple different delivery services but these guys are who you want to use. Local organically grown product to your door step. What else can you ask for. Don't waste your time with sketchy people. These guys are clean cut and not someone who you would be ashamed of to come in your house or apt building.
+                        Check out their refer a patient program.
+                    </p>
+                    <p class="quote-text visible-xs visible-sm hidden-md hidden-lg">
+                        They are essentially a dispensary that's confidentially brought to you! Great selection and prices. Definitely try the Grape Ape from Hail Mary Productions. It's some fire
+                    </p>
+                    <p class="quote-author visible-md visible-lg hidden-xs hidden-sm">
+                        AllinALLday23 <small>on</small> <a href="https://weedmaps.com/deliveries/sierra-patient-network#/reviews" class="weedmaps-icon quote-source">Weedmaps</a>
+                    </p>
+                    <p class="quote-author visible-xs visible-sm hidden-md hidden-lg">
+                        trufflez <small>on</small> <a href="https://weedmaps.com/deliveries/sierra-patient-network#/reviews" class="weedmaps-icon quote-source">Weedmaps</a>
+                    </p>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <div class="container">
@@ -133,7 +168,7 @@
                     <div class="points-info">
                         <h3>Deep Involvement</h3>
                         <div class="points-img">
-                            <img src="/img/cannabis_salve.jpg" alt="master kush" />
+                            <img src="/img/cannabis-salve.jpg" alt="master kush" />
                         </div>
                         <p>
                             From basic product education to workshops like 'cannabis history 101' and 'DIY growing techniques',
@@ -147,7 +182,7 @@
                 </div>
         </div>
         <div class="row">
-            <h3 class="text-right">Learn more about <a href="#">Our Story</a></h3>
+            <h3 class="text-center">Learn more about <a href="#">Our Story</a></h3>
         </div>
     </div>
 
@@ -181,7 +216,7 @@
 
         <div class="row product-viewer">
             <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style item-animation" ng-repeat="tester in test | filter:query">
-                <div class="item-box">
+                <div class="item-box panel panel-default">
                     <img src="/img/blueberry-haze.jpg"/>
                     <div class="item-color-bar"></div>
 
@@ -219,7 +254,6 @@
     {{ HTML::script('/js/controllers/productController.js'); }}
 
             <!--load scripts-->
-    {{ HTML::script('/js/vendor/bootstrap.min.js'); }}
     {{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-animate.min.js') }}
     {{ HTML::script('https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-sanitize.min.js') }}
     {{ HTML::script('/js/services/refreshData.js') }}

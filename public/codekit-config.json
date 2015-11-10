@@ -68,6 +68,15 @@
       "outputAbbreviatedPath" : "\/js\/services\/refreshData-ck.js",
       "fileType" : 64
     },
+    "\/css\/widgets.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/widgets.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/img\/sloth-bar.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -78,6 +87,15 @@
       "outputAbbreviatedPath" : "\/img\/sloth-bar.jpg",
       "initialSize" : 97563,
       "fileType" : 4096
+    },
+    "\/css\/vars.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/vars.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/bootstrap-theme.min.css" : {
       "ignoreWasSetByUser" : 0,
@@ -196,6 +214,18 @@
       "initialSize" : 41732,
       "fileType" : 8192
     },
+    "\/css\/widgets.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/css\/widgets.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/main.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/img\/leaf-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -240,15 +270,6 @@
       "initialSize" : 62258,
       "fileType" : 4096
     },
-    "\/css\/bootstrap.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/css\/bootstrap.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -268,6 +289,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.8.3-respond-1.4.2.min-ck.js",
       "fileType" : 64
+    },
+    "\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -303,6 +333,18 @@
       "initialSize" : 501710,
       "fileType" : 8192
     },
+    "\/css\/landing.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/landing.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/landing.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/vendor\/npm.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -323,6 +365,29 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/sierraPN.png",
       "initialSize" : 8535,
+      "fileType" : 8192
+    },
+    "\/css\/vars.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/vars.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/vars.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/speech-box.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/speech-box.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/speech-box.png",
+      "initialSize" : 47588,
       "fileType" : 8192
     },
     "\/img\/theclear-strawberry-banana.jpg" : {
@@ -346,6 +411,15 @@
       "outputAbbreviatedPath" : "\/img\/solvent-free-capsules.jpg",
       "initialSize" : 88717,
       "fileType" : 4096
+    },
+    "\/css\/landing.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/landing.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/img\/master_kush.jpg" : {
       "ignoreWasSetByUser" : 0,

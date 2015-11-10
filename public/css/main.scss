@@ -4,17 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
-$linkColor: #53b053;
-//$randoColor1 : #004C3B;
-//$randoColor2 : #00CC9E;
-//$randoColor3 : #008C6D;
-//$randoColor4 : #004031;
-//$randoColor5 : #003328;
+@import'vars';
+@import'landing';
+@import'widgets';
 
-//$itemcolors: $randoColor1,$randoColor2,$randoColor3,$randoColor4,$randoColor5;
-//$key: random(length($itemcolors));
-//$nth: nth($itemcolors,$key);
-//$randoColor: $nth !default;
 
 body {
   padding-top:60px;
@@ -81,21 +74,43 @@ select {
 .navbar {
   height:60px;
   padding-top:5px;
+  background-color: white;
+}
+.navbar-nav>li>a {
+  font-size:110%;
+  color:#2b542c;
+}
+.navbar-form, #navbar {
+  max-height:540px;
+  @media screen and (max-width: $break-medium) {
+    background-color:white;
+  }
+  background-color:transparent;
 }
 .nav-sierra {
   border-bottom:2px groove #ccc;
+  background: rgb(238,238,238);
+  background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+  background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
 
-  background: rgb(169,219,128);
-  background: -moz-linear-gradient(top,  rgba(169,219,128,1) 0%, rgba(150,197,111,1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,219,128,1)), color-stop(100%,rgba(150,197,111,1)));
-  background: -webkit-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-  background: -o-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-  background: -ms-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-  background: linear-gradient(to bottom,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 );
-
-
+  //background: rgb(169,219,128);
+  //background: -moz-linear-gradient(top,  rgba(169,219,128,1) 0%, rgba(150,197,111,1) 100%);
+  //background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,219,128,1)), color-stop(100%,rgba(150,197,111,1)));
+  //background: -webkit-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+  //background: -o-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+  //background: -ms-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+  //background: linear-gradient(to bottom,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 );
 }
+.icon-bar {
+  background-color:#241104;
+}
+
 
 .navbar-brand {
   padding:0;
@@ -106,106 +121,8 @@ select {
   height:60px;
 }
 
-.jumbotron {
-  color:white;
-  margin-bottom:0;
-  padding-bottom:40px;
-  background-image: linear-gradient(141deg, rgba(0, 0, 0, 0.6) 17%, rgba(0, 0, 0, 0)), url('/img/plant-bg.jpg');
-  background-size:cover;
-  min-height:480px;
-}
-.quote-holder {
-  background: rgb(226,226,226);
-  background: -moz-linear-gradient(-45deg,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(209,209,209,1)), color-stop(100%,rgba(254,254,254,1)));
-  background: -webkit-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
-  background: -o-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
-  background: -ms-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
-  background: linear-gradient(135deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 );
 
-  padding:15px 5px;
-}
-.quote-box {
-  width:80%;
-  margin:10px auto 5px;
-  position:relative;
-}
-.quote-text {
-  margin:20px 5px;
-  font-size:1.7rem;
-  font-style: italic;
 
-  &:before {
-    content:url('/img/leaf-icon.png');
-    width:40px;
-    height:40px;
-    position: absolute;
-    left:-40px;
-    top:-10px;
-  }
-  &:after {
-    content:url('/img/leaf-icon.png');
-    width:40px;
-    height:40px;
-    position: absolute;
-    right:-40px;
-  }
-}
-.quote-author {
-  padding-top:10px;
-  text-align:right;
-  font-size:1.4rem;
-}
-.quote-source {
-  font-weight:bold;
-  color: #326432;
-  text-decoration: none;
-  &:hover {
-    color:#660066;
-  }
-}
-
-.info-holder {
-  padding:25px;
-  position: relative;
-}
-.points-img {
-
-  img {
-    display: block;
-    width:80%;
-    margin:0 auto;
-    height:180px;
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    border-radius:50%;
-    background-color:#2b669a;
-    //box-shadow:#2e6da4 0px 0px 0px 2px;
-    border:6px inset white;
-  }
-}
-.points-info {
-  padding:0;
-  margin-top:-10px;
-  z-index:5;
-  h3 {
-    color:white;
-    background-color:#3c763d;
-    text-align: center;
-    margin:0;
-    padding: 15px 5px 8px 5px;
-    text-shadow: 2px 2px 2px #444;
-  }
-  p {
-    border-bottom:3px solid #A5A5A5;
-    padding:10px;
-    font-size:1.7rem;
-    text-align: center;
-    border-radius:0 0 10px 10px;
-    height:190px;
-  }
-}
 
 .product-viewer {
   height:620px;
@@ -214,150 +131,6 @@ select {
   -webkit-border-radius:8px;
   -moz-border-radius:8px;
   border-radius:8px;
-}
-
-//
-//
-//
-//
-//
-//
-//
-//this is the styling section that pertains to the product viewer being used on the landing page
-//
-//
-//
-//
-//
-//
-
-$item-height: 360px;
-
-.item-style {
-  margin-bottom:20px;
-}
-.item-box {
-  position:relative;
-  background-color:#fff;
-  width:100%;
-  min-height:100%;
-  min-width:100%;
-  height:$item-height;
-  -webkit-box-shadow: 2px 3px 4px rgb(110, 110, 110);
-  -moz-box-shadow: 2px 7px 10px rgb(110, 110, 110);
-  box-shadow: 2px 7px 10px rgb(110, 110, 110);
-  &:hover {
-    -webkit-box-shadow: 1px 2px 2px rgb(110, 110, 110);
-    -moz-box-shadow: 1px 3px 5px rgb(110, 110, 110);
-    box-shadow: 1px 3px 5px rgb(110, 110, 110);
-  }
-  img {
-    height:85%;
-    max-width:90%;
-    position:absolute;
-    left:0;
-  }
-}
-
-.item-color-bar {
-  height:$item-height;
-  display:inline-block;
-  position:absolute;
-  left:0;
-  width:15px;
-  z-index:10;
-  background-color: #3e8f3e;
-  padding:0;
-  margin:0;
-}
-.item-price-box {
-  z-index:5;
-  font-size:1.5rem;
-  position: absolute;
-  right:0;
-
-}
-.item-info {
-  z-index:5;
-  position: absolute;
-  bottom:0;
-  width:100%;
-  padding-left:15px;
-  background-color: rgba(250,250,250,.75);
-  .info-left {
-    width:75%;
-    padding:0 2px;
-    height:$item-height/4;
-    display:inline-block;
-    float:left;
-    h4 {
-      margin:5px 0;
-    }
-    a {
-      font-size:1.2rem;
-      color:#2b669a;
-      &:hover {
-        color:#660066;
-      }}
-  }
-  .info-right {
-    width:25%;
-    float:left;
-    height:$item-height/4;
-    display:inline-block;
-  }
-}
-.item-price-line {
-  background-color:rgba(250,250,250,.75);
-  width:80px;
-  font-size:2rem;
-  .item-price-label {
-    display:block;
-    font-weight: bold;
-    text-align:left;
-    width: 100%;
-    padding-right:20px;
-  }
-  .item-price-val {
-    display:block;
-    width: 100%;
-    text-align:left;
-    &:before {
-      content:"$";
-    }
-  }
-}
-
-.btn-full {
-  padding:0!important;
-  height:100%;
-  width:100%;
-  border-radius:0;
-}
-
-.item-animation {
-  //&.ng-enter {
-  //  -webkit-transition: 750ms ease-in-out all;
-  //  -moz-transition: 750ms ease-in-out all;
-  //  -ms-transition: 750ms ease-in-out all;
-  //  -o-transition: 750ms ease-in-out all;
-  //  transition: 750ms ease-in-out all;
-  //  opacity: 1;
-  //}
-  //&.ng-enter-active {
-  //  opacity: 0;
-  //}
-  //&.ng-leave {
-  //  -webkit-transition: 750ms ease-in-out all;
-  //  -moz-transition: 750ms ease-in-out all;
-  //  -ms-transition: 750ms ease-in-out all;
-  //  -o-transition: 750ms ease-in-out all;
-  //  transition: 750ms ease-in-out all;
-  //  opacity:0;
-  //}
-  //&.ng-leave-active {
-  //  opacity:1;
-  //}
 }
 
 
