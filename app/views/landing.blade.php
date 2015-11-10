@@ -46,7 +46,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <div class="navbar-left navbar-form">
                     <div class="form-group">
-                        <h4><span class="hidden-md hidden-sm">First Timer? Get a FREE G</span> <SMALL class="call-us">Call Us: <span>(219) 867-5309</span></SMALL></h4>
+                        <h4><span class="hidden-md hidden-sm">First Time? Get a FREE G &nbsp;</span> <SMALL class="call-us"> Call Us: <span>(916) 420-3311</span></SMALL></h4>
                     </div>
                 </div>
                 <ul class="navbar-right navbar-nav nav">
@@ -86,10 +86,10 @@
             <div class="row">
                 <div class="col-md-7">
                     <h1><% info.name %></h1>
-                    <p class="lead">
-                        We are a delivery service able to offer high quality cannabis medication and products right to your door.
-                        We serve the Sacramento area offering everything you need from a diverse Flower selection and
-                        high quality extracts to topicals. Come see for yourself why we are one of the top services in the area.</p>
+                    <p class="lead jumbotron-text">
+                        We are a delivery service offering high quality flower and top of the line extracts right to your door.
+                        <span class="hidden-xs">We serve the Sacramento area offering everything you need to make sure that your experience is easy.
+                        See for yourself why we are one of the top services in the area.</span></p>
 
                         <button id="cartBtn" type="button" class="button btn-primary">See our Menu</button>
                         <button type="button" class="button btn-default">Join our Community</button>
@@ -125,7 +125,7 @@
             <div class="col-sm-5 col-xs-12">
                 <div class="sign-up well">
                     <h3 class="text-uppercase">Delivery? No It's Sierra.</h3>
-                    <p class="lead">Join others in getting consistent, reliable, quality medication delivered right to your door. Sign up and get all the perques of the network.</p>
+                    <p class="lead">Join others in getting consistent, reliable, quality medication delivered right to your door. Get what you need, when you need it.</p>
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
@@ -143,71 +143,11 @@
 
     </div>
 
-    <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-                <div class="col-xs-4 info-holder">
-
-                    <div class="points-info">
-                        <h3>Quality Plants</h3>
-                        <div class="points-img">
-                            <img src="/img/master_kush.jpg" alt="master kush" />
-                        </div>
-                        <p class="visible-lg">With over 25 years experience cultivating cannabis,
-                            our master grower and his cultivation team have dialed in their techniques
-                            to achieve a high-quality, 100% organically grown plant.
-                            {{--for every stage of the plant’s life cycle. --}}
-                            {{--By using a feeding regimen consisting of 100% organic actively-aerated compost tea with EM-1, --}}
-                            {{--along with 100% organic soil amendments, we are able to ensure that our patients have access to the safest, --}}
-                            {{--highest quality medicine available. --}}
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xs-4 info-holder">
-
-                    <div class="points-info">
-                        <h3>Diverse Products</h3>
-                        <div class="points-img">
-                            <img src="/img/mango_shatter.jpg" alt="master kush" />
-                        </div>
-                        <p class="visible-lg">
-                            {{--In the constantly evolving cannabis industry, i--}}
-                            {{--t is essential to be ‘in the know’ regarding new innovative technologies and new forms of --}}
-                            {{--medicine being made available to our patients. --}}
-                            {{--Keeping that in mind, --}}
-                            We are always expanding our new product selection and source top industry professionals to process our organic
-                            flower using state-of-the-art equipment and extracting methods.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xs-4 info-holder">
-
-                    <div class="points-info">
-                        <h3>Deep Involvement</h3>
-                        <div class="points-img">
-                            <img src="/img/cannabis-salve.jpg" alt="master kush" />
-                        </div>
-                        <p class="visible-lg">
-                            From basic product education to workshops like 'cannabis history 101' and 'DIY growing techniques',
-                            we offer a wide variety of service to help raise awareness about cannabis.
-                            </p>
-                        {{----}}
-                            {{--We at the Sierra Patient Network strive to educate our clients on all dynamics from the cannabis plant; --}}
-                            {{--From basic product education all of the way to workshops like ‘cannabis history 101’ and ‘DIY Growing--}}
-                            {{--techniques’, we offer a wide variety of service to help raise awareness within the ever-changing cannabis industry</p>--}}
-                    </div>
-                </div>
-        </div>
-        <div class="row">
-            <h3 class="text-center">Learn more about <a href="#">Our Story</a></h3>
-        </div>
-    </div>
-
     <hr>
 
     <div class="container-fluid">
-        <h1 id="cartSection">Currently available - <p ng-model="qtySort"></p></h1>
-        <div class="row">
+        <h1 id="cartSection">Current Menu <small>Go ahead, get yourself that extra G</small></h1>
+        <div class="row cart-menu-row">
 
             <select ng-model="query.type" class="typeSelect">
                 <option selected value="">All</option>
@@ -227,10 +167,12 @@
                 <option value="ounce">ounce</option>
             </select>
 
-
+            <div class="cart-box">
+                <h4><img src="/img/shopping-cart.png" /> Your cart: <span>0</span><br/><small>Subtotal <b>$34.95</b></small></h4>
+            </div>
 
         </div>
-
+        <div class="greenHRow"></div>
         <div class="row product-viewer">
             <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style item-animation" ng-repeat="tester in test | filter:query">
                 <div class="item-box panel panel-default">
@@ -255,6 +197,67 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-xs-4 info-holder">
+
+                <div class="points-info">
+                    <h3>Quality Plants</h3>
+                    <div class="points-img">
+                        <img src="/img/master_kush.jpg" alt="master kush" />
+                    </div>
+                    <p class="visible-lg">With over 25 years experience cultivating cannabis,
+                        our master grower and his cultivation team have dialed in their techniques
+                        to achieve a high-quality, 100% organically grown plant.
+                        {{--for every stage of the plant’s life cycle. --}}
+                        {{--By using a feeding regimen consisting of 100% organic actively-aerated compost tea with EM-1, --}}
+                        {{--along with 100% organic soil amendments, we are able to ensure that our patients have access to the safest, --}}
+                        {{--highest quality medicine available. --}}
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4 info-holder">
+
+                <div class="points-info">
+                    <h3>Diverse Products</h3>
+                    <div class="points-img">
+                        <img src="/img/mango_shatter.jpg" alt="master kush" />
+                    </div>
+                    <p class="visible-lg">
+                        {{--In the constantly evolving cannabis industry, i--}}
+                        {{--t is essential to be ‘in the know’ regarding new innovative technologies and new forms of --}}
+                        {{--medicine being made available to our patients. --}}
+                        {{--Keeping that in mind, --}}
+                        We are always expanding our new product selection and source top industry professionals to process our organic
+                        flower using state-of-the-art equipment and extracting methods.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-4 info-holder">
+
+                <div class="points-info">
+                    <h3>Deep Involvement</h3>
+                    <div class="points-img">
+                        <img src="/img/cannabis-salve.jpg" alt="master kush" />
+                    </div>
+                    <p class="visible-lg">
+                        From basic product education to workshops like 'cannabis history 101' and 'DIY growing techniques',
+                        we offer a wide variety of service to help raise awareness about cannabis.
+                    </p>
+                    {{----}}
+                    {{--We at the Sierra Patient Network strive to educate our clients on all dynamics from the cannabis plant; --}}
+                    {{--From basic product education all of the way to workshops like ‘cannabis history 101’ and ‘DIY Growing--}}
+                    {{--techniques’, we offer a wide variety of service to help raise awareness within the ever-changing cannabis industry</p>--}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="text-center">Learn more about <a href="#">Our Story</a></h3>
+        </div>
+    </div>
+
 
     <div class="container">
         <footer>

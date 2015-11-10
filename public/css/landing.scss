@@ -7,6 +7,10 @@
   background-size:cover;
   min-height:480px;
 }
+.jumbotron-text {
+  padding:40px 0;
+  font-size:1.3em;
+}
 
 
 
@@ -116,7 +120,13 @@ padding-left:40px;
     display: block;
     width:90%;
     margin:0 auto;
-    height:180px;
+    @media screen and (max-width: $break-medium) {
+      height:170px;
+    }
+
+    @media screen and (min-width: $break-medium) {
+      height:200px;
+    }
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
     border-radius:50%;
@@ -305,4 +315,29 @@ padding-left:40px;
   //&.ng-leave-active {
   //  opacity:1;
   //}
+}
+
+.cart-menu-row {
+
+}
+.cart-box{
+  display: inline-block;
+  float:right;
+  padding:2px 15px;
+  //&:before {
+  //  content:url('/img/shopping-cart.png');
+  //  left:0;
+  //  height:40px;
+  //  width:40px;
+  //}
+  h4 {
+    margin-top:0;
+  }
+  img {
+    height:40px;
+    width:40px;
+  }
+  small {
+    float:right;
+  }
 }
