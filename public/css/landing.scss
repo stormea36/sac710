@@ -33,7 +33,7 @@
   padding:15px 5px;
 }
 .quote-box {
-  width:80%;
+  width:90%;
   margin:10px auto 5px;
   position:relative;
 }
@@ -41,12 +41,19 @@
   margin:5px;
   font-size:1.7rem;
   font-style: italic;
+  @media screen and (max-width: $break-small) {
+    padding:25px 40px 80px 25px;
+  }
   @media screen and (max-width: $break-medium) {
     padding:25px 70px 80px 25px;
   }
   @media screen and (max-width: $break-large) {
-    padding:25px 90px 80px 30px;
+    padding:25px 90px 100px 30px;
   }
+  @media screen and (min-width: $break-large) {
+    padding:20px 90px 85px 35px;
+  }
+
 
   color:white;
   background-image: url('/img/speech-box.png');
@@ -107,7 +114,7 @@ padding-left:40px;
 
   img {
     display: block;
-    width:80%;
+    width:90%;
     margin:0 auto;
     height:180px;
     -webkit-border-radius:50%;
@@ -129,11 +136,26 @@ padding-left:40px;
     margin:0;
     padding: 15px 5px 8px 5px;
     text-shadow: 2px 2px 2px #444;
+    @media screen and (max-width: $break-small) {
+      font-size:1.2em;
+    }
+    @media screen and (max-width: $break-large) {
+      font-size:1.3em;
+    }
+    @media screen and (min-width: $break-large) {
+      font-size:1.7em;
+    }
   }
   p {
     border-bottom:3px solid #A5A5A5;
     padding:10px;
-    font-size:1.7rem;
+
+    @media screen and (max-width: $break-medium) {
+      font-size:1.4rem;
+    }
+    @media screen and (min-width: $break-medium) {
+      font-size:1.7rem;
+    }
     text-align: center;
     border-radius:0 0 10px 10px;
     height:190px;

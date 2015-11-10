@@ -5,7 +5,7 @@
   color: white;
   margin-bottom: 0;
   padding-bottom: 40px;
-  background-image: linear-gradient(141deg, rgba(0, 0, 0, 0.6) 17%, rgba(0, 0, 0, 0)), url("/img/plant-bg.jpg");
+  background-image: linear-gradient(141deg, rgba(0, 0, 0, 0.6) 17%, transparent), url("/img/plant-bg.jpg");
   background-size: cover;
   min-height: 480px; }
 
@@ -17,11 +17,11 @@
   background: -o-linear-gradient(-45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
   background: -ms-linear-gradient(-45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
   background: linear-gradient(135deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 );
   padding: 15px 5px; }
 
 .quote-box {
-  width: 80%;
+  width: 90%;
   margin: 10px auto 5px;
   position: relative; }
 
@@ -32,12 +32,18 @@
   color: white;
   background-image: url("/img/speech-box.png");
   background-size: 100% 100%; }
+  @media screen and (max-width: 620px) {
+    .quote-text {
+      padding: 25px 40px 80px 25px; } }
   @media screen and (max-width: 758px) {
     .quote-text {
       padding: 25px 70px 80px 25px; } }
   @media screen and (max-width: 1120px) {
     .quote-text {
-      padding: 25px 90px 80px 30px; } }
+      padding: 25px 90px 100px 30px; } }
+  @media screen and (min-width: 1120px) {
+    .quote-text {
+      padding: 20px 90px 85px 35px; } }
 
 .quote-author {
   padding-left: 40px;
@@ -63,7 +69,7 @@
 
 .points-img img {
   display: block;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 180px;
   -webkit-border-radius: 50%;
@@ -83,13 +89,27 @@
     margin: 0;
     padding: 15px 5px 8px 5px;
     text-shadow: 2px 2px 2px #444; }
+    @media screen and (max-width: 620px) {
+      .points-info h3 {
+        font-size: 1.2em; } }
+    @media screen and (max-width: 1120px) {
+      .points-info h3 {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 1120px) {
+      .points-info h3 {
+        font-size: 1.7em; } }
   .points-info p {
     border-bottom: 3px solid #A5A5A5;
     padding: 10px;
-    font-size: 1.7rem;
     text-align: center;
     border-radius: 0 0 10px 10px;
     height: 190px; }
+    @media screen and (max-width: 758px) {
+      .points-info p {
+        font-size: 1.4rem; } }
+    @media screen and (min-width: 758px) {
+      .points-info p {
+        font-size: 1.7rem; } }
 
 .item-style {
   margin-bottom: 20px; }
@@ -197,7 +217,7 @@
   background: -o-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
   background: -ms-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
   background: linear-gradient(to right, #b4ddb4 0%, #83c783 0%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); }
 
 body {
   padding-top: 60px;
@@ -244,13 +264,13 @@ select {
   padding: 18px 25px 18px 25px; }
 
 .typeSelect {
-  background: url("/img/leaf-icon-large.png") 96%/15% no-repeat #eeeeee; }
+  background: url("/img/leaf-icon-large.png") 96%/15% no-repeat #eee; }
 
 .qtySelect {
-  background: url("/img/weed-jar.png") 96%/15% no-repeat #eeeeee; }
+  background: url("/img/weed-jar.png") 96%/15% no-repeat #eee; }
 
 /*target Internet Explorer 9 and Internet Explorer 10:*/
-@media screen and (min-width: 0 \0) {
+@media screen and (min-width: 0\0) {
   select {
     background: none;
     padding: 5px; } }
@@ -279,7 +299,7 @@ select {
   background: -o-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
   background: -ms-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
   background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); }
 
 .icon-bar {
   background-color: #241104; }
@@ -298,3 +318,5 @@ select {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px; }
+
+/*# sourceMappingURL=main.css.map */

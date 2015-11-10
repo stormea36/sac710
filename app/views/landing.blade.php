@@ -46,7 +46,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <div class="navbar-left navbar-form">
                     <div class="form-group">
-                        <h4><span class="hidden-md">First Timer? Get a FREE G</span> <SMALL class="call-us">Call Us: <span>(219) 867-5309</span></SMALL></h4>
+                        <h4><span class="hidden-md hidden-sm">First Timer? Get a FREE G</span> <SMALL class="call-us">Call Us: <span>(219) 867-5309</span></SMALL></h4>
                     </div>
                 </div>
                 <ul class="navbar-right navbar-nav nav">
@@ -105,7 +105,7 @@
     </div>
     <div class="container-fluid quote-holder">
         <div class="row">
-            <div class="col-md-7 col-xs-7">
+            <div class="col-sm-7 col-md-7 col-xs-10 col-xs-offset-1 col-sm-offset-0">
                 <div class="quote-box">
                     <p class="quote-text visible-md visible-lg hidden-xs hidden-sm">
                         Tried a couple different delivery services but these guys are who you want to use. Local organically grown product to your door step. What else can you ask for. Don't waste your time with sketchy people. These guys are clean cut and not someone who you would be ashamed of to come in your house or apt building.
@@ -122,6 +122,23 @@
                     </p>
                 </div>
             </div>
+            <div class="col-sm-5 col-xs-12">
+                <div class="sign-up well">
+                    <h3 class="text-uppercase">Delivery? No It's Sierra.</h3>
+                    <p class="lead">Join others in getting consistent, reliable, quality medication delivered right to your door. Sign up and get all the perques of the network.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Your Name</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button class="btn btn-success" role="button">Join the Network</button>
+                    </form>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -129,14 +146,14 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 info-holder">
+                <div class="col-xs-4 info-holder">
 
                     <div class="points-info">
                         <h3>Quality Plants</h3>
                         <div class="points-img">
                             <img src="/img/master_kush.jpg" alt="master kush" />
                         </div>
-                        <p>With over 25 years experience cultivating cannabis,
+                        <p class="visible-lg">With over 25 years experience cultivating cannabis,
                             our master grower and his cultivation team have dialed in their techniques
                             to achieve a high-quality, 100% organically grown plant.
                             {{--for every stage of the plant’s life cycle. --}}
@@ -146,14 +163,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 info-holder">
+                <div class="col-xs-4 info-holder">
 
                     <div class="points-info">
                         <h3>Diverse Products</h3>
                         <div class="points-img">
                             <img src="/img/mango_shatter.jpg" alt="master kush" />
                         </div>
-                        <p>
+                        <p class="visible-lg">
                             {{--In the constantly evolving cannabis industry, i--}}
                             {{--t is essential to be ‘in the know’ regarding new innovative technologies and new forms of --}}
                             {{--medicine being made available to our patients. --}}
@@ -163,14 +180,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-8 col-xs-offset-2 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 info-holder">
+                <div class="col-xs-4 info-holder">
 
                     <div class="points-info">
                         <h3>Deep Involvement</h3>
                         <div class="points-img">
                             <img src="/img/cannabis-salve.jpg" alt="master kush" />
                         </div>
-                        <p>
+                        <p class="visible-lg">
                             From basic product education to workshops like 'cannabis history 101' and 'DIY growing techniques',
                             we offer a wide variety of service to help raise awareness about cannabis.
                             </p>
