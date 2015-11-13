@@ -57,15 +57,6 @@
       "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck.js",
       "fileType" : 64
     },
-    "\/css\/widgets.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/widgets.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/services\/refreshData.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -87,6 +78,15 @@
       "outputAbbreviatedPath" : "\/img\/sloth-bar.jpg",
       "initialSize" : 97563,
       "fileType" : 4096
+    },
+    "\/css\/widgets.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/widgets.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/css\/vars.css" : {
       "ignoreWasSetByUser" : 0,
@@ -126,16 +126,16 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.11.2-ck.js",
       "fileType" : 64
     },
-    "\/img\/plant-bg.jpg" : {
+    "\/js\/main-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/plant-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/plant-bg.jpg",
-      "initialSize" : 225397,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/main-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
+      "fileType" : 64
     },
     "\/img\/grape-ape.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -159,6 +159,17 @@
       "initialSize" : 76663,
       "fileType" : 4096
     },
+    "\/img\/plant-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/plant-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/plant-bg.jpg",
+      "initialSize" : 225397,
+      "fileType" : 4096
+    },
     "\/img\/horizontalnug1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -168,51 +179,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/horizontalnug1.png",
       "initialSize" : 322720,
-      "fileType" : 8192
-    },
-    "\/js\/main-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/main-ck.js",
-      "fileType" : 64
-    },
-    "\/css\/widgets.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/css\/widgets.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/weed-jar.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/weed-jar.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/weed-jar.png",
-      "initialSize" : 41732,
       "fileType" : 8192
     },
     "\/img\/cannabis-salve.jpg" : {
@@ -225,6 +191,40 @@
       "outputAbbreviatedPath" : "\/img\/cannabis-salve.jpg",
       "initialSize" : 89126,
       "fileType" : 4096
+    },
+    "\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/main-ck.js",
+      "fileType" : 64
+    },
+    "\/weed-jar.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/weed-jar.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/weed-jar.png",
+      "initialSize" : 41732,
+      "fileType" : 8192
+    },
+    "\/css\/widgets.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/css\/widgets.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/main.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/leaf-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -248,12 +248,32 @@
       "initialSize" : 92961,
       "fileType" : 4096
     },
+    "\/js\/controllers\/productController-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/controllers\/productController-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck-ck.js",
+      "fileType" : 64
+    },
     "\/css\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/bootstrap.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -278,26 +298,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.8.3-respond-1.4.2.min-ck.js",
       "fileType" : 64
-    },
-    "\/js\/controllers\/productController-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/controllers\/productController-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/controllers\/productController-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/bootstrap.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/css\/main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -333,18 +333,6 @@
       "initialSize" : 501710,
       "fileType" : 8192
     },
-    "\/css\/landing.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/landing.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/landing.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/js\/vendor\/npm.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -367,15 +355,15 @@
       "initialSize" : 8535,
       "fileType" : 8192
     },
-    "\/img\/speech-box.png" : {
+    "\/img\/shopping-cart.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/speech-box.png",
+      "inputAbbreviatedPath" : "\/img\/shopping-cart.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/speech-box.png",
-      "initialSize" : 47588,
+      "outputAbbreviatedPath" : "\/img\/shopping-cart.png",
+      "initialSize" : 16935,
       "fileType" : 8192
     },
     "\/css\/vars.scss" : {
@@ -390,16 +378,28 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/shopping-cart.png" : {
+    "\/img\/speech-box.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/shopping-cart.png",
+      "inputAbbreviatedPath" : "\/img\/speech-box.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/shopping-cart.png",
-      "initialSize" : 16935,
+      "outputAbbreviatedPath" : "\/img\/speech-box.png",
+      "initialSize" : 47588,
       "fileType" : 8192
+    },
+    "\/css\/landing.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/landing.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/landing.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/theclear-strawberry-banana.jpg" : {
       "ignoreWasSetByUser" : 0,

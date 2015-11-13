@@ -168,33 +168,37 @@
             </select>
 
             <div class="cart-box">
-                <h4><img src="/img/shopping-cart.png" /> Your cart: <span>0</span><br/><small>Subtotal <b>$34.95</b></small></h4>
+                <h4 id="product-section"><img src="/img/shopping-cart.png" /> Your cart: <span>0</span><br/><small>Subtotal <b>$34.95</b></small></h4>
             </div>
 
         </div>
         <div class="greenHRow"></div>
-        <div class="row product-viewer">
-            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style item-animation" ng-repeat="tester in test | filter:query">
-                <div class="item-box panel panel-default">
-                    <img src="/img/blueberry-haze.jpg"/>
-                    <div class="item-color-bar"></div>
+        <div class="product-viewer">
+            <div class="row product-row no-overflow">
 
-                    <div class="item-price-box">
-                        <div class="item-price-line" ng-repeat="(key,price) in tester.prices" ng-show="key === qtySort">
-                            <p class="item-price-label"><%key%></p><p class="item-price-val"><%price%></p>
+                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-4 item-style" ng-repeat="tester in test | filter:query">
+                    <div class="item-box panel panel-default">
+                        <img src="/img/blueberry-haze.jpg"/>
+                        <div class="item-color-bar"></div>
+
+                        <div class="item-price-box">
+                            <div class="item-price-line" ng-repeat="(key,price) in tester.prices" ng-show="key === qtySort">
+                                <p class="item-price-label"><%key%></p><p class="item-price-val"><%price%></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item-info">
-                        <div class="info-left">
-                            <h4><% tester.name | limitTo: 40 %><%tester.name.length > 30 ? '...' : '' %><small> <% tester.type %></small></h4>
-                            <a data-toggle="tooltip" data-placement="bottom" title="<% tester.description | limitTo:200 %>" tooltip><%  tester.description | limitTo:50 %><%tester.description.length > 50 ? '...' : '' %></a>
-                        </div>
-                        <div class="info-right">
-                            <button class="btn btn-primary btn-full">Get It</button>
+                        <div class="item-info">
+                            <div class="info-left">
+                                <h4><% tester.name | limitTo: 40 %><%tester.name.length > 30 ? '...' : '' %><small> <% tester.type %></small></h4>
+                                <a data-toggle="tooltip" data-placement="bottom" title="<% tester.description | limitTo:200 %>" tooltip><%  tester.description | limitTo:50 %><%tester.description.length > 50 ? '...' : '' %></a>
+                            </div>
+                            <div class="info-right">
+                                <button class="btn btn-primary btn-full">Get It</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="product-viewer-shade item-animation"></div>
         </div>
     </div>
 
